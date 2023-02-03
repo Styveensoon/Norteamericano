@@ -1,0 +1,39 @@
+#contenido{
+	border-radius: 20px;
+	border-style: solid;
+	border-color: rgb(0, 172, 167);
+	border-width: 15px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color: rgba(102, 102, 102,0.9);
+	position : absolute;
+	color: white;
+	width : 97%;
+	height : 81%;
+}
+#opiniones{
+	margin-top: 13%;
+	margin-right: 7%;
+	float: right;
+	text-align: right;
+	border-style: solid;
+	border-radius: 20px;
+	border-bottom-style: solid;
+	border-color: rgb(0, 172, 167);
+	border-width: 15px;
+	color: white;
+}
+p{
+	position: absolute;
+	margin-top: 7%;
+	margin-right: 45%;
+	margin-left: 80px;
+}
+body{
+	background-image: url(../media/estudiante.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #66999;
+}
