@@ -1,0 +1,71 @@
+#contenido{
+	border-radius: 20px;
+	border-style: solid;
+	border-color: #1b3039;
+	border-width: 15px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color: rgba(47, 48, 48,0.95);
+	position : absolute;
+	color: white;
+	width : 97%;
+	height : 81%;
+}
+#opiniones{
+	padding: 10px;
+	margin-top: 6%;
+	margin-right: 7%;
+	float: right;
+	text-align: right;
+	border-style: solid;
+	border-radius: 20px;
+	border-bottom-style: solid;
+	border-color: #4787BE;
+	border-width: 10px;
+	color: white;
+	text-align: center;
+}
+p{
+	position: absolute;
+	margin-top: 7%;
+	margin-right: 45%;
+	margin-left: 80px;
+}
+body{
+	background-image: url(../media/estudiante.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#sombra{
+	color: #4787BE;
+}
+textarea{
+	padding: 10px;
+	resize: none;
+	width: 250px; height: 190px;
+}
+/*Para la anomacion del botón*/
+.item {
+	cursor: pointer;
+  background-color: rgba(0,0,0,0.4);
+  color: #fff;
+  position: relative;
+  width: 120px; height: 50px;
+}
+.item:before {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  display: block;
+  width: 0;
+  height: 5px;
+  background-color: #fff;
+  transition: all .3s;
+  left: 50%;
+}
+.item:hover:before {
+  width: 100%;
+  left:0;
+}
