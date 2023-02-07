@@ -12,6 +12,10 @@
 	height : 81%;
 }
 #opiniones{
+	position: absolute;
+	margin-left:1200px;
+	width: 350px;
+	height: 400px;
 	padding: 10px;
 	margin-top: 6%;
 	margin-right: 7%;
@@ -26,13 +30,14 @@
 	text-align: center;
 }
 p{
+	
 	position: absolute;
-	margin-top: 7%;
+	margin-top: 8%;
 	margin-right: 45%;
-	margin-left: 80px;
+	margin-left: 120px;
 }
 body{
-	background-image: url(../media/estudiante.jpg);
+	background-image: url("https://img.freepik.com/vector-premium/diseno-fondo-educacion-estudiantes-escuela_24640-953.jpg?w=2000");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;

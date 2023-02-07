@@ -20,5 +20,7 @@
       $stmt->execute([$voto]);
 
   $conexion = null;
+  header("Location: ../paginas/index5.html");
+  exit();
 
   ?>
